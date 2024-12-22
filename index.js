@@ -488,9 +488,9 @@
 
 // let character = 'g';
 // if ("aeiouAEIOU".includes(character)) {
-//   console.log(`${character} is a vowel`);  
+//   console.log(`${character} is a vowel`);
 // } else {
-//   console.log(`${character} is a consotant`);  
+//   console.log(`${character} is a consotant`);
 // }
 
 // 4
@@ -518,7 +518,7 @@
 //   console.log("Your grade is D");
 // }  else if (score < 60) {
 //   console.log("Your grade is F");
-// } 
+// }
 
 // 5
 
@@ -534,11 +534,11 @@
 // let age = 20;
 
 // if ( age < 13 ) {
-//   console.log(`Your age is ${age}. Your are a child`);  
+//   console.log(`Your age is ${age}. Your are a child`);
 // } else if ( age >= 13 && age <= 19 ) {
-//   console.log(`Your age is ${age}. Your are a teenager`);  
+//   console.log(`Your age is ${age}. Your are a teenager`);
 // } else {
-//   console.log(`Your age is ${age}. Your are a adult`); 
+//   console.log(`Your age is ${age}. Your are a adult`);
 // }
 
 // 6
@@ -569,14 +569,13 @@
 //   console.log("It's morning");
 // }
 
-
 // 8
 
 // Write a JavaScript program to check if a number is a single-digit, double-digit, or triple-digit number.
 // Sample Input: let number = 25;
 // Sample Output: "25 is a double-digit number"
 
-// let number = 9; 
+// let number = 9;
 // if ( number >= 0 && number < 10 ) {
 //   console.log(`${number} is a single-digit number`);
 // } else if (number >= 10 && number < 100) {
@@ -603,18 +602,37 @@
 // Sample Input: let char = 'G';
 // Sample Output: "G is uppercase"
 
-let char = "g";
-if (char >= 'A' && char <= 'Z' ) {
-  console.log(`${char} is a upperCase`);
-} else if ( char >= 'a' && char <= 'z') {
-  console.log(`${char} is a lowerCase`);
-}
+// let char = "g";
+// if (char >= 'A' && char <= 'Z' ) {
+//   console.log(`${char} is a upperCase`);
+// } else if ( char >= 'a' && char <= 'z') {
+//   console.log(`${char} is a lowerCase`);
+// }
 
 // 11
 
 // Write a JavaScript program to determine if a given day number corresponds to a weekday or a weekend (1 = Monday, ..., 7 = Sunday).
 // Sample Input: let day = 6;
 // Sample Output: "It's a weekend"
+
+// let day = 5;
+
+// if (day === 1) {
+//   console.log("Monday");
+// } else if (day === 2) {
+//   console.log("Tuesday");
+// } else if (day === 3) {
+//   console.log("Wednesday");
+// } else if (day === 4) {
+//   console.log("Thursday");
+// } else if (day === 5) {
+//   console.log("Friday");
+// } else if (day === 6) {
+//   console.log("Saturday");
+// } else if (day === 7) {
+//   console.log("Sunday");
+// } else {
+// }
 
 // 12
 
@@ -627,12 +645,47 @@ if (char >= 'A' && char <= 'Z' ) {
 // Sample Input: let size = 'Medium';
 // Sample Output: "A Medium coffee costs $3"
 
+// const Small = "$2";
+// const Medium = "$3";
+// const Large = "$4";
+
+// let size = Large;
+// if (size == Small) {
+//   console.log(`A Small coffee costs ${Small}`);
+// } else if (size == Medium) {
+//   console.log(`A Medium coffee costs ${Medium}`);
+// } else if (size == Large) {
+//   console.log(`A Large coffee costs ${Large}`);
+// }
+
+// const size = 'Large';
+
+// let price;
+// if ( size === 'Small') {
+//   price = 2;
+// } else if ( size === 'Medium') {
+//   price = 3;
+// } else if ( size === 'Large') {
+//   price = 4;
+// }
+// console.log(`A ${size} coffee costs $${price}`);
+
 // 13
 
 // You’re writing a program for a weather app.
 // Display whether a person should take an umbrella, a jacket, or sunglasses based on the weather condition (Rainy, Cold, Sunny).
 // Sample Input: let weather = 'Rainy';
 // Sample Output: "Don't forget your umbrella!"
+
+// let weather = 'Sunny';
+// let clothes;
+// if (weather === 'Rainy') {
+//   clothes = 'umbrella';
+// } else if ( weather === 'Cold' ) {
+//   clothes = 'a jacket';
+// } else if ( weather === 'Sunny' ) {
+//   clothes = 'sunglasses';
+// } console.log("Don't forget your", clothes);
 
 // 14
 
@@ -646,6 +699,20 @@ if (char >= 'A' && char <= 'Z' ) {
 // Sample Input: let age = 70;
 // Sample Output: "Your ticket price is $12"
 
+// let age = 30;
+
+// let ticketPrice;
+// if (age < 5) {
+//   ticketPrice = "free";
+// } else if (age >= 5 && age <= 18) {
+//   ticketPrice = "$10";
+// } else if (age > 18 && age <= 60) {
+//   ticketPrice = "$15";
+// } else if (age > 60) {
+//   ticketPrice = "$12";
+// }
+// console.log(`Your ticket price is ${ticketPrice}`);
+
 // 15
 
 // You’re designing a program for a virtual pet. Determine if the pet is Happy, Hungry, or Sleepy based on its energy level:
@@ -657,6 +724,16 @@ if (char >= 'A' && char <= 'Z' ) {
 // Sample Input: let energy = 25;
 // Sample Output: "Your pet is Sleepy"
 
+// let energy = 71;
+// let motion;
+// if (energy > 70) {
+//   motion = "Happy";
+// } else if (energy >= 30 && energy <= 70) {
+//   motion = "Hungry";
+// } else if (energy < 30) {
+//   motion = "Sleepy";
+// } console.log(`Your pet is ${motion}`);
+
 // 16
 
 // You’re developing a weightlifting app. Based on the weight lifted, classify the attempt as Beginner, Intermediate, or Advanced:
@@ -667,6 +744,16 @@ if (char >= 'A' && char <= 'Z' ) {
 
 // Sample Input: let weight = 75;
 // Sample Output: "You are lifting at an Intermediate level"
+
+// let weight = 101;
+// let level;
+// if (weight < 50) {
+//   level = "Beginner";
+// } else if (weight >= 50 && weight <= 100) {
+//   level = "Intermediate";
+// } else if (weight > 100) {
+//   level = "Advanced";
+// }console.log(`You are lifting at ${level} level`);
 
 // 17
 
@@ -680,6 +767,18 @@ if (char >= 'A' && char <= 'Z' ) {
 // Sample Input: let totalSpent = 150;
 // Sample Output: "You get a 20% discount"
 
+// let totalSpent = 201;
+// let discountOfStore;
+// if (totalSpent < 50) {
+//   discountOfStore = 0;
+// } else if (totalSpent >= 50 && totalSpent <= 100) {
+//   discountOfStore = 10;
+// } else if (totalSpent > 100 && totalSpent <= 200) {
+//   discountOfStore = 20;
+// } else if (totalSpent > 200) {
+//   discountOfStore = 30;
+// } console.log(`You get ${discountOfStore}% discount`);
+
 // 18
 
 // Write a program to determine if a password is strong, medium, or weak.
@@ -691,6 +790,33 @@ if (char >= 'A' && char <= 'Z' ) {
 // Sample Input: let password = 'Pass123!';
 // Sample Output: "Your password is strong"
 
+// let password = "fff";
+// let hasNumber = /\d/;
+// let hasSpecialChar = /[!@#$%^&*(),.?":{}|<>]/;
+// let passLevel;
+// if (
+//   password.length >= 8 &&
+//   hasNumber.test(password) &&
+//   hasSpecialChar.test(password)
+// ) {
+//   passLevel = "Strong";
+// } else if (
+//   password.length >= 6 &&
+//   password.length < 8 &&
+//   hasNumber.test(password) &&
+//   hasSpecialChar.test(password)
+// ) {
+//   passLevel = "Medium";
+// } else if (
+//   password.length < 6 &&
+//   hasNumber.test(password) &&
+//   hasSpecialChar.test(password)
+// ) {
+//   passLevel = "Weak";
+//   console.log(`Your password is ${passLevel}`);
+// } else {
+// }
+
 // 19
 
 // You’re coding a program for an amusement park. Ticket prices vary by age and height:
@@ -701,6 +827,22 @@ if (char >= 'A' && char <= 'Z' ) {
 
 // Sample Input: let age = 65, height = 130;
 // Sample Output: "Your ticket price is $7"
+
+// let age = 17,
+//   height = 119,
+//   ageType,
+//   ticketPrice;
+// if (age < 18 && height < 120) {
+//   ageType = "Children";
+//   ticketPrice = 5;
+// } else if (age >= 18 && age < 60 && height >= 120) {
+//   ageType = "Adults";
+//   ticketPrice = 10;
+// } else if (age >= 60 && height >= 120) {
+//   ageType = "Seniors";
+//   ticketPrice = 7;
+// }
+// console.log(`Your are ${ageType} price is $${ticketPrice}`);
 
 // 20
 
@@ -714,6 +856,17 @@ if (char >= 'A' && char <= 'Z' ) {
 // Sample Input: let dataUsage = 25;
 // Sample Output: "Your data cost is $30"
 
+// let dataUsage = 60, dataCost;
+// if (dataUsage > 0 && dataUsage < 5) {
+//   dataCost = 10;
+// } else if (dataUsage >= 5 && dataUsage <= 20) {
+//   dataCost = 20;
+// }else if (dataUsage > 20 && dataUsage <= 50) {
+//   dataCost = 30;
+// }else if (dataUsage > 50) {
+//   dataCost = 50;
+// } console.log(`Your data cost is ${dataCost}`);
+
 // 21
 
 // Write a program for a bank loan eligibility check. A user qualifies if:
@@ -724,6 +877,15 @@ if (char >= 'A' && char <= 'Z' ) {
 
 // Sample Input: let age = 30, income = 30000, creditScore = 650;
 // Sample Output: "You are eligible for the loan"
+
+// let age = 30,
+//   income = 30000,
+//   creditScore = 650;
+// if (age >= 20 && income >= 25000 && creditScore >= 600) {
+//   console.log(`You are eligible for the loan`);
+// } else {
+//   console.log(`You are not eligible for the loan`);
+// }
 
 // 22
 
@@ -739,6 +901,31 @@ if (char >= 'A' && char <= 'Z' ) {
 
 // Sample Input: let attendance = 80; let exam1 = 85
 // Sample Output: "Your final grade is B"
+/* let attendance = 75;
+let exam1 = 70,
+  exam2 = 90,
+  exam3 = 81;
+let averageOfExam = (exam1 + exam2 + exam3) / 3;
+// let mathfloor = Math.floor(averageOfExam);
+let grade;
+if (attendance < 75) {
+  console.log("Your final exam is F");
+} else {
+  if (attendance >= 75 && averageOfExam >= 90 && averageOfExam <= 100) {
+    grade = "A";
+  } else if (attendance >= 75 && averageOfExam >= 80 && averageOfExam < 90) {
+    grade = "B";
+  } else if (attendance >= 75 && averageOfExam >= 70 && averageOfExam < 80) {
+    grade = "C";
+  } else if (attendance >= 75 && averageOfExam >= 60 && averageOfExam < 70) {
+    grade = "D";
+  } else if (attendance < 75 && averageOfExam < 60 || averageOfExam < 60) {
+    grade = "F";
+  }
+  console.log(
+    `Your final grade is ${grade}, and your average of exam is ${averageOfExam}`
+  );
+} */
 
 // 23
 
@@ -754,6 +941,64 @@ if (char >= 'A' && char <= 'Z' ) {
 // const metTarget = true
 // const attendance = 95;
 // Sample Output: "Your total salary is $2900"
+
+// let yearsWorked = 6;
+// const metTarget = true;
+// let attendance = 89;
+// let yearsWorked5;
+// let baseSalary;
+// let totalSalary;
+// let target;
+// let attendanceAbove;
+// if (yearsWorked >= 5 && attendance >= 90 && metTarget == true) {
+//   baseSalary = 2000;
+//   yearsWorked5 = 500;
+//   target = 300;
+//   attendanceAbove = 100;
+//   totalSalary = baseSalary + yearsWorked5 + target + attendanceAbove;
+// } else if (yearsWorked >= 5 && attendance >= 90 && metTarget == false) {
+//   baseSalary = 2000;
+//   yearsWorked5 = 500;
+//   // target = 300;
+//   attendanceAbove = 100;
+//   totalSalary = baseSalary + yearsWorked5 + target + attendanceAbove;
+// } else if (yearsWorked >= 5 && attendance < 90 && metTarget == true) {
+//   baseSalary = 2000;
+//   yearsWorked5 = 500;
+//   target = 300;
+//   // attendanceAbove = 100;
+//   totalSalary = baseSalary + yearsWorked5 + target + attendanceAbove;
+// } else if (yearsWorked < 5 && attendance < 90 && metTarget == true) {
+//   baseSalary = 2000;
+//   // yearsWorked5 = 500;
+//   target = 300;
+//   attendanceAbove = 100;
+//   totalSalary = baseSalary + yearsWorked5 + target + attendanceAbove;
+// } console.log(`Your total salary is ${totalSalary}`);
+
+/* let yearsWorked = 5; // Sample input
+const metTarget = false; // Sample input (true or false)
+const attendance = 91; // Sample input (percentage)
+
+let baseSalary = 2000; // Base salary
+let totalSalary = baseSalary; // Initialize total salary with base salary
+
+// Add $500 if the employee has worked for more than 5 years
+if (yearsWorked > 5) {
+  totalSalary += 500;
+}
+
+// Add $300 if they achieved the monthly target
+if (metTarget) {
+  totalSalary += 300;
+}
+
+// Add $100 if their attendance is above 90%
+if (attendance > 90) {
+  totalSalary += 100;
+}
+
+console.log(`Your total salary is $${totalSalary}`); */
 
 // 24
 
@@ -773,8 +1018,32 @@ if (char >= 'A' && char <= 'Z' ) {
 // const time = '2:45:00';
 // Sample Output: "Your performance level is Advanced"
 
+/* let gender = 'Female';
+const time = '2:45:00';
+if ( gender === 'Female' && time >= '2:45:00') { 
+} 
+if ( gender === 'Male' && time >= '2:45:00') { 
+} 
+
+const times = '2:45:00';
+const splitedTImes = times.split(':')
+console.log(splitedTImes); */
+
 // Exercise 8 j
 
-// Гончигсумлай хоолны газар оров. Орсон хоолны газар нь 5000₮ - 30000₮ хооронд 15% нэмж төлдөг,
-// бусад үед 20% - ийг нэмж төлдөг бол. Эдгээр тохиолдолуудад нийт хэдийг төлөхийг олно уу.
+// Гончигсумлай хоолны газар оров. Орсон хоолны газар нь 5000₮ - 30000₮ хооронд 15% нэмж төлдөг, бусад үед 20% - ийг нэмж төлдөг бол. 
+// Эдгээр тохиолдолуудад нийт хэдийг төлөхийг олно уу.
 // Эдгээр тохиолдолуудад тус бүр хэдийг төлөх вэ? 3000₮, 27500₮, 100000₮.
+
+/* let price = [3000];
+let sumOfPrice;
+
+if (price >= 5000 && price <= 30000) {
+  sumOfPrice === price + (price * 0.15);
+} else {
+  sumOfPrice === price + (price * 0.20);
+}
+console.log(`Таны төлбөр нийт ${sumOfPrice}`);
+
+
+ */
